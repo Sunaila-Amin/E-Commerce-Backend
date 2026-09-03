@@ -1,0 +1,66 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.pdb
+*.dbg
+*.bin
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.user
+*.suo
+*.userprefs
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# Logs
+*.log
+logs/
+
+# Unit test coverage
+coverage/
+cobertura.xml
+*.coverage
+*.coveragexml
+
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Application config overrides that contain secrets
+appsettings.Development.json
+
+# User-specific files
+*.user
+*.suo
+*.tlb
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local DB / misc
+*.db
+*.mdf
+*.ldf
+Thumbs.db
+Desktop.ini
+.DS_Store
